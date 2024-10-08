@@ -61,6 +61,9 @@
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
                     <encoding>${maven.compiler.outputEncoding}</encoding>
+                    <compilerArgs>
+                        <arg>-parameters</arg>
+                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>
